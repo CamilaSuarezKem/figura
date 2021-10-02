@@ -6,7 +6,7 @@ public class Rectangulo {
 
 	public Rectangulo(int ancho, int alto) {
 		super();
-		this.ancho = ancho;
+		this.ancho = ancho; 
 		this.alto = alto;
 	}
 
@@ -14,6 +14,8 @@ public class Rectangulo {
 	public String toString() {
 		return "Rectangulo [ancho=" + ancho + ", alto=" + alto + "]";
 	}
-
+	public double getPerimetro() {
+		return this.alto*2 + this.ancho*2;
+	}
 	
 }
